@@ -2,9 +2,9 @@ pipeline {
     agent any
     
     stages {
-        stage('main branch') {
+        stage('feature/cart branch') {
             steps {
-                echo 'Branch name: main'
+                echo 'Branch name: feature/cart'
                 echo "Build number: ${BUILD_NUMBER}"
             }
         }

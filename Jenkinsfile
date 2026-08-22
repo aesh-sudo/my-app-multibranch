@@ -5,7 +5,7 @@ pipeline {
         stage('main branch') {
             steps {
                 echo 'Branch name: main'
-                echo 'Build number: ${BUILD_NUMBER}'
+                echo "Build number: ${BUILD_NUMBER}"
             }
         }
     }
